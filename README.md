@@ -1,7 +1,3 @@
-# Royal London application project
-
-This is the application project for Royal London. Made by Sandu Alexandru.
-
 ## Installation
 
 Clone this repository locally with 
