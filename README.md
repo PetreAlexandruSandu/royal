@@ -10,5 +10,4 @@ Clone this repository locally with
 git clone 'https://github.com/PetreAlexandruSandu/royal.git'
 ```
 
-## Usage
 Open it with Visual Studio 2017 or higher and run it.
