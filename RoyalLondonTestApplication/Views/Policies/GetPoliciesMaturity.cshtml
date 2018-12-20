@@ -1,0 +1,35 @@
+﻿@model List<RoyalLondonTestApplication.Models.Maturity>
+
+@{
+    ViewBag.Title = "Insurance Policies";
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Policies Maturity Value</h3>
+
+<br />
+
+<div class="row">
+    <div class="col-md-3 col-sm-12">
+        <table class="table table-hover table-responsive tableWidth">
+            <thead>
+                <tr>
+                    <th class="paddingTop textBold">Number</th>
+                    <th class="paddingTop textBold" style="text-align:right;">Maturity Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var policyMaturity in Model)
+                {
+                <tr>
+                    <td>@policyMaturity.Number</td>
+                    <td style="text-align:right;">@policyMaturity.Value.ToString("#.##")</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-md-9 col-sm-12"></div>
+</div>
+

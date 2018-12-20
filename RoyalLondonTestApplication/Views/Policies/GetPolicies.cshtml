@@ -1,0 +1,43 @@
+﻿@model List<RoyalLondonTestApplication.Models.Policy>
+
+@{
+    ViewBag.Title = "Insurance Policies";
+    this.Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Policies</h3>
+
+<br />
+
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <table class="table table-hover table-responsive tableWidth">
+            <thead>
+                <tr>
+                    <th class="paddingTop textBold" colspan="1">Number</th>
+                    <th class="paddingTop textBold">Date</th>
+                    <th class="paddingTop textBold">Premiums</th>
+                    <th class="paddingTop textBold">Membership</th>
+                    <th class="paddingTop textBold">Bonus</th>
+                    <th class="paddingTop textBold">Uplift</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var policyMaturity in Model)
+                {
+                <tr>
+                    <td>@policyMaturity.Number</td>
+                    <td>@policyMaturity.Date.ToString("dd/MMM/yyyy")</td>
+                    <td>@policyMaturity.Premiums</td>
+                    <td>@(policyMaturity.Membership ? "Y" : "N")</td>
+                    <td>@policyMaturity.DiscretionaryBonus</td>
+                    <td>@policyMaturity.UpliftPercentage</td>
+                </tr>
+                }
+            </tbody>
+        </table>
+
+    </div>
+    <div class="col-md-6 col-sm-12"></div>
+</div>
+

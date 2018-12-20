@@ -1,0 +1,11 @@
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\RoyalLondonTestApplication.Business.dll
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\RoyalLondonTestApplication.Business.pdb
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\Autofac.dll
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\RoyalLondonTestApplication.DataAccess.dll
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\RoyalLondonTestApplication.DataAccess.pdb
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\bin\Debug\Autofac.xml
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\obj\Debug\RoyalLondonTestApplication.Business.csprojAssemblyReference.cache
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\obj\Debug\RoyalLondonTestApplication.Business.csproj.CoreCompileInputs.cache
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\obj\Debug\RoyalLondonTestApplication.Business.csproj.CopyComplete
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\obj\Debug\RoyalLondonTestApplication.Business.dll
+c:\users\alex\source\repos\RoyalLondonTestApplication\RoyalLondonTestApplication.Business\obj\Debug\RoyalLondonTestApplication.Business.pdb
